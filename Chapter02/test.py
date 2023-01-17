@@ -1,6 +1,6 @@
-name = "김쵸비"
-age = 22
-job = "Programmer"
-# 주석은 #를 활용하여 작성
+text1 = "김우빈"
+text2 = "문관우"
+text3 = "바보"
 
-print(name, age, job)
+total_text = text1 + " " + text2 + " " + text3
+print(total_text)
