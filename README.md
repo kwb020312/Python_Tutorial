@@ -129,3 +129,20 @@ data[c] = 3
 # 삭제
 del data[b]
 ```
+
+### 😋생성자
+
+`python`의 생성자는 `Class`로 정의되며 구조는 아래와 같다
+
+```python
+class Woobin:
+    def __init__(self, friends):
+        self.friends = friends
+    def who(self):
+        for cur in self.friends:
+            print(cur)
+
+test = Woobin(['영훈', '원석'])
+
+test.who()
+```

@@ -1,6 +1,10 @@
-text1 = "김우빈"
-text2 = "문관우"
-text3 = "바보"
+class Woobin:
+    def __init__(self, friends):
+        self.friends = friends
+    def who(self):
+        for cur in self.friends:
+            print(cur)
 
-total_text = text1 + " " + text2 + " " + text3
-print(total_text)
+test = Woobin(['영훈', '원석'])
+
+test.who()
