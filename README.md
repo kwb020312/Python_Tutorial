@@ -109,3 +109,23 @@ def sum(a, b):
 
 print(sum(2, 5)) # print 5
 ```
+
+### 😊딕셔너리
+
+`python`의 `Object`는 `Dictionary`라고 정의되며, 이 구조는 `JS`의 `Object`와 같다.
+
+```python
+data = {
+    a: 1,
+    b: 2
+}
+
+for cur in data.values():
+    print(cur) # print 1, 2
+
+# 추가
+data[c] = 3
+
+# 삭제
+del data[b]
+```
